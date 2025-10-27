@@ -1129,7 +1129,12 @@ fill: 111111;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.mobile-menu-socials {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+   justify-content: center;
+}
 .mobile-menu-contacts {
     display: flex;
     justify-content: flex-start;
