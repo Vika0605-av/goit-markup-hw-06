@@ -1113,6 +1113,7 @@ fill: 111111;
     line-height: 1.12;
     letter-spacing: 0.02em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #434455;
 }
 .mobile-menu-contacts{
     display: flex;
@@ -1143,12 +1144,12 @@ display: flex;
     width: 40px;
     height: 40px;
 }
-.mobile-icon-link:hover,
-.mobile-icon-link:focus {
+.mobile-socials-icon:hover,
+.mobile-socials-icon:focus {
     background-color: #404bbf;
 }
 
-.mobile-socials-icon {
+.mobile-socials-icon{
 display: flex;
     justify-content: center;
     align-items: center;
@@ -1167,16 +1168,16 @@ display: flex;
 .mobile-menu-nav .mobile-menu-item:not(:last-child) {
     margin-bottom: 40px;
 }
-.mobile-menu-contacts .mobile-meu-item:first-child .mobile-menu-link {
+.mobile-menu-link .mobile-menu-item:first-child .mobile-menu-link {
     color: #4d5ae5;
     
 }
 
 
-.mobile-menu-contacts .mobile-menu-item:not(:last-child) {
+.mobile-adress-link .mobile-menu-item:not(:last-child) {
     margin-bottom: 24px;
 }
-}
+
 @media only screen and (min-width:768px) {
     .mobile-menu {
         display: none;
